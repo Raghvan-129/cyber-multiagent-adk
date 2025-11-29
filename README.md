@@ -5,21 +5,27 @@ Multi-agent AI assistant using Google ADK
 
   
    git clone https://github.com/<your-username>/cyber-multiagent-adk.git
+   
    cd cyber-multiagent-adk
  
 
 3) Create venv + install:
 
    python -m venv .venv
-   source .venv/bin/activate      # Windows: .venv\Scripts\activate
+   
+   source .venv/bin/activate   # Windows: .venv\Scripts\activate
+   
    pip install -U pip
+   
    pip install -e .
+   
 
 
-4) Set Gemini key:
+5) Set Gemini key:
 
-  
+
    export GOOGLE_API_KEY="YOUR_KEY"
+   
    export GOOGLE_GENAI_USE_VERTEXAI="FALSE"
   
 
