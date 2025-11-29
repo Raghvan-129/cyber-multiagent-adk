@@ -8,8 +8,7 @@ Multi-agent AI assistant using Google ADK
    cd cyber-multiagent-adk
  
 
-2) Create venv + install:
-
+3) Create venv + install:
 
    python -m venv .venv
    source .venv/bin/activate      # Windows: .venv\Scripts\activate
@@ -17,15 +16,15 @@ Multi-agent AI assistant using Google ADK
    pip install -e .
 
 
-3) Set Gemini key:
+4) Set Gemini key:
 
   
    export GOOGLE_API_KEY="YOUR_KEY"
    export GOOGLE_GENAI_USE_VERTEXAI="FALSE"
   
 
-4) Start ADK Web UI:
+5) Start ADK Web UI:
 
    adk web --port 8000
 
-5) Open `http://localhost:8000` → select the `cyber_agent` / `CyberCoordinator` agent and start chatting.
+6) Open `http://localhost:8000` → select the `cyber_agent` / `CyberCoordinator` agent and start chatting.
